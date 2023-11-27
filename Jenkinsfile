@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('1-clonecode'){
             steps{
-                sh 'df-h'
+                sh 'df -h'
             }
 
         }
